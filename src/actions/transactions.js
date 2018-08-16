@@ -4,7 +4,6 @@ import * as apiCalls from '../api_calls/transactions';
 export const getTransactions = dispatch => params => {
   dispatch({
     type: constants.GET_TRANSACTIONS,
-    payload: data,
   });
   
   return apiCalls.getTransactions(params)

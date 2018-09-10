@@ -4,13 +4,13 @@ import PropTypes from 'prop-types';
 import './style.css';
 
 export default class Transactions extends Component {
-  componentDidMount() {
-    this.props.getTransactions();
+  doSomething = () => {
+    // some code 
   }
 
   render() {
     return (
-      <div>Transactions</div>
+      <input type="button" onClick={this.doSomething} />
     );
   }
 }

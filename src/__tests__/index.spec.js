@@ -8,6 +8,6 @@ describe('First test', () => {
   })
 
   it('Test 3', () => {
-    expect(0 + 4).toEqual(4);
+    expect(0 + 3).toEqual(4);
   })
 });

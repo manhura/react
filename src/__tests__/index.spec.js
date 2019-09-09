@@ -4,6 +4,6 @@ describe('First test', () => {
   })
 
   it('Test 2', () => {
-    expect(2 + 2).toEqual(4);
+    expect(1 + 3).toEqual(4);
   })
 });

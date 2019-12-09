@@ -4,6 +4,6 @@ import { render } from 'react-dom';
 const appRoot = document.getElementById('root');
 
 render(
-  <div>Hello world</div>,
+  <div>Hello world 1</div>,
   appRoot,
 );
